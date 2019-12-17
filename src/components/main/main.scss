@@ -1,0 +1,22 @@
+main {
+  margin: 0;
+  padding: 0;
+  background-color: #EEEEEE;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  article {
+    width: 30%;
+    background-color: #BBBBBB;
+    &:nth-child(odd) {
+      background-color: #3a7ead;
+    }
+    &:last-child {
+      background-color: #9f9e00;
+    }
+    h2 {
+      text-align: center;
+      color: #ff2a00;
+    }
+  }
+}
